@@ -1,0 +1,33 @@
+div{
+    margin: 10px;
+}
+#search{
+    height: 30px;
+    width: 150px;
+    background-color: whitesmoke;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: rgb(4, 129, 129);
+    color: rgb(4, 129, 129);
+    font-size: 15px;
+    font-weight: bold;
+}
+#plus{
+    height: 40px;
+    width: 40px;
+    border-width: 0px;
+    background-color: rgb(4, 129, 129);
+    border-radius: 50%;
+    color: white;
+    font-size: 200%;
+}
+#createaccount{
+    height: 40px;
+    width: 180px;
+    background-color: cornflowerblue;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 5px 5px black;
+    color: white;
+    font-size: 16px;
+}

@@ -1,0 +1,46 @@
+
+h1{
+    text-align: center;
+}
+
+.title{
+    align-items: center;
+}
+
+.container{
+    height: 800px;
+    width: 900px;
+    background-color: bisque;
+    padding: 50px;
+}
+
+.row1{
+    height: 200px;
+    width: 800px;
+    padding: 10px;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row2{
+    height: 200px;
+    width: 800px;
+    padding: 10px;
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row3{
+    height: 200px;
+    width: 800px;
+    padding: 10px;
+    background-color: darkviolet;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p{
+    text-align: center;
+}

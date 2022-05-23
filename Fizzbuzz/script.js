@@ -13,7 +13,7 @@ for(var i = 1; i < 101; i++){
     //third condition checks if the integer is divisible by 5 and NOT by 3
     //if it is divisible by 5, and not by 3, it will print "Buzz"
     else if((i % 5 == 0) && (i % 3 != 0)){
-        console.log("Buzz")
+        console.log("Buzz");
     }
     //fourth condition checks if the integer is divisible by BOTH 3 AND 5
     //if it is divisible by 3 and 5, it will print "FizzBuzz"
@@ -21,5 +21,5 @@ for(var i = 1; i < 101; i++){
         console.log("FizzBuzz");
     }
     //Prints error if a number somehow makes it through the loop
-    else console.log("error")
+    else console.log("error");
 }

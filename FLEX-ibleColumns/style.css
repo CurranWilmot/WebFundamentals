@@ -1,0 +1,23 @@
+.row{
+    display: flex;
+}
+.col{
+    background-color: blueviolet;
+    height: 100px;
+    flex: 1;
+    margin: 15px;
+}
+
+.col-2{
+    flex: 2;
+    background-color: brown;
+    margin: 15px;
+    height: 100px;
+}
+
+.col-3{
+    flex: 3;
+    background-color: blue;
+    margin: 15px;
+    height: 100px;
+}

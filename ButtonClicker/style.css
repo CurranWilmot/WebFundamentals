@@ -1,0 +1,99 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgray;
+    padding: 10px;
+    height: 50px;
+}
+#login{
+    color: white;
+    opacity: 0.7;;
+    background-color: cornflowerblue;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 4px 4px black;
+}
+#login:hover{
+    opacity: 1;
+}
+
+.maincontent{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.definitions{
+    width: 400px;
+}
+
+#definition1{
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+}
+
+#definition2{
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+}
+#definition1>p{
+    margin-left: 30px;
+}
+
+#definition2>p{
+    margin-left: 30px;
+}
+
+h4{
+    font-style: italic;
+}
+
+h5>span{
+    font-style: italic;
+}
+
+.likes{
+    color: black;
+    background-color: yellow;
+    opacity: 0.7;;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 4px 4px black;
+}
+
+.likes:hover{
+    opacity: 1;
+}
+
+.sidebar{
+    padding: 10px;
+    border: 3px solid black;
+    height: 100px;
+}
+
+h3>span{
+    font-weight: bolder;
+}
+
+#adddef{
+    color: black;
+    opacity: 0.7;
+    width: 200px;
+    background-color:green;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 4px 4px black;
+}
+#adddef:hover{
+    opacity: 1;
+}

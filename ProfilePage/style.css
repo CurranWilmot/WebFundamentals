@@ -1,0 +1,182 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+
+.nav{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: white;
+}
+li{
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+}
+a{
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 1.0;
+}
+.btn{
+    color: white;
+    opacity: 0.7;;
+    background-color: cornflowerblue;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 4px 4px black;
+}
+.btn:hover{
+    opacity: 1.0;
+}
+
+/* main body, containing column 1 and column 2 */
+
+.row{
+    display: flex;
+}
+
+/* column 1, containing usercard */
+
+.col-1{
+    flex: 2;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.top{
+    height: 100px;
+    width: 95%;
+    background-color: aqua;
+    margin: 0px;
+    padding: 32px;
+}
+
+.profpic > img{
+    max-block-size: 100px;
+    position: relative;
+    left: 50px;
+    top: 60px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+.mainbody{
+    height: 400px;
+    width: 95%;
+    margin: 0px;
+    padding: 30px;
+    border: 2px solid rgb(192, 186, 186);
+    margin-bottom: 50px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+}
+
+.location > img {
+    margin-right: 20px;
+    max-block-size:  25px;
+}
+
+.settings{
+    display: flex;
+}
+
+.settings > img{
+    margin-right: 10px;
+    max-block-size: 20px;
+}
+
+.settings > a{
+    color: blue;
+}
+
+/* Education box */
+
+.educationdetail{
+    border: 2px solid lightgray;
+}
+
+
+/* column 2, right sizebar */
+.col-2{
+    flex: 1;
+    margin: 30px;
+}
+
+/* Topbox */
+
+.conreqnum{
+    height: 25;
+    width: 25;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+.topcolor{
+    background-color: gray;
+    display: flex;
+    color: white;
+}
+
+.connectionreqs{
+    border: 2px solid lightgray;
+    margin-bottom: 50px;
+}
+
+.req1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.req1 img{
+    max-block-size: 25px;
+}
+
+.person{
+    display: flex;
+    align-items: center;
+}
+
+.checkx{
+    display: flex;
+    align-items: center;
+}
+
+
+/* bottom box */
+
+.connections{
+    border: 2px solid lightgray;
+}
+
+.connections img{
+    max-block-size: 25px;
+}
+
+.viewmore{
+    color: blue;
+    border: 2px solid lightgray;
+}

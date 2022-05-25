@@ -1,0 +1,110 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Top navigation bar */
+
+.topbar{
+    background-color: lightskyblue;
+    padding: 0px 15%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.cities{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cities > h3{
+    margin: 20px;
+}
+/* current city title and temperature selector */
+
+.currentcity{
+    padding: 0px 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.showtemp{
+    display: flex;
+    align-items: center;
+}
+
+.showtemp > p{
+    margin-right: 30px;
+}
+
+/* daily weather section */
+
+.dailyweather{
+    padding: 0px 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Bottom daily weather boxes */
+
+.bottomboxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    padding: 15px;
+}
+
+.bottomboxes > img{
+    border-radius: 50%;
+}
+
+.highandlow{
+    display: flex;
+    justify-content: space-around;
+}
+
+.temphigh{
+    margin-right: 40%;
+    color: red;
+    font-size: 30px;
+}
+.templow{
+    margin-left: 40%;
+    color: blue;
+    font-size: 30px;
+}
+
+/* cookie stylin' */
+
+.bottomofpage{
+    padding: 0px 15%;
+    display: flex;
+}
+
+.cookie{
+    position: fixed;
+    background-color: lightgray;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cookie > img{
+    margin: 25px;
+}
+
+.cookymessage{
+    margin: 25px
+}
+
+.cookyclicker{
+    background-color: lightskyblue;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    height: 50px;
+    width: 100px;
+    margin: 25px;
+}

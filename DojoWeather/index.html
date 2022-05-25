@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topbar">
+        <h1>DojoWeather</h1>
+        <div class="cities">
+            <h3 onclick="alert('Always Cold!')" id="burbank">Burbank</h3>
+            <h3 onclick="alert('Always Windy!')" id="chicago">Chicago</h3>
+            <h3 onclick="alert('Always Hot!')" id="dallas">Dallas</h3>
+        </div>
+    </div>
+    <div class="currentcity">
+        <h2>San Jose</h2>
+        <div class="showtemp">
+            <p>show temperature in</p>
+            <select name="temperature" id="tempscale">
+                <option oninput="convertDegrees(this)" value="0">°F</option>
+                <option oninput="convertDegrees(this)" value="1">°C</option>
+            </select>
+        </div>
+    </div>
+    <div class="dailyweather">
+        <div class="bottomboxes">
+            <h3 class="day">Today</h3>
+            <img src="assets\some_rain.png" alt="rainy">
+            <p class="weather">some rain</p>
+            <div class="highandlow">
+                <h3 class="temphigh"><span>24</span>°</h3>
+                <h3 class="templow"><span>18</span>°</h3>
+            </div>
+        </div>
+        <div class="bottomboxes">
+            <h3 class="day">Tomorrow</h3>
+            <img src="assets\some_sun.png" alt="rainy">
+            <p class="weather">some sun</p>
+            <div class="highandlow">
+                <h3 class="temphigh"><span>27</span>°</h3>
+                <h3 class="templow"><span>19</span>°</h3>
+            </div>
+        </div>
+        <div class="bottomboxes">
+            <h3 class="day">Friday</h3>
+            <img src="assets\some_clouds.png" alt="rainy">
+            <p class="weather">some clouds</p>
+            <div class="highandlow">
+                <h3 class="temphigh"><span>21</span>°</h3>
+                <h3 class="templow"><span>16</span>°</h3>
+            </div>
+        </div>
+        <div class="bottomboxes">
+            <h3 class="day">Saturday</h3>
+            <img src="assets\some_sun.png" alt="rainy">
+            <p class="weather">some sun</p>
+            <div class="highandlow">
+                <h3 class="temphigh"><span>26</span>°</h3>
+                <h3 class="templow"><span>21</span>°</h3>
+            </div>
+        </div>
+    </div>
+    <div class="bottomofpage">
+        <div class="cookie">    
+            <img src="assets\cookie.png" alt="cooky">
+        <div class="cookymessage">
+            <h4>Stop! Cookie time</h4>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="https://en.wikipedia.org/wiki/Bowhead_whale">Read more...</a></p>
+        </div>
+        <button class="cookyclicker" onclick="acceptCookie()">I Accept</button>
+    </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

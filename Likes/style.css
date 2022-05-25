@@ -1,0 +1,82 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.topbar{
+    
+    padding: 20px 25%;
+}
+
+.title{
+    color: white;
+    background-color: black;
+    padding: 20px 20px;
+}
+
+.feedtitle{
+    text-align: center;
+}
+
+.usercard{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    border: 2px solid black;
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 25%;
+    height: 300px;
+}
+
+.usercard > img{
+    height: 100px;
+    width: 100px;
+}
+
+.mainpage{
+    display: flex;
+}
+
+.maincontent{
+    flex: 4;
+}
+
+.userbox{
+    
+    width: 50%;
+    padding: 20px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+
+}
+
+.userlikes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}    
+
+.buttoncount{
+    display: flex;
+    align-items: center;
+}
+.likesbutton{
+    margin-left: 15px;
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    background-color: yellow;
+    opacity: 0.7;
+    box-shadow: 3px 3px black;
+}
+
+.likesbutton:hover{
+    opacity: 1.0;
+    background-color: green;
+}
+
+.likescount span{
+    font-style: italic;
+}
